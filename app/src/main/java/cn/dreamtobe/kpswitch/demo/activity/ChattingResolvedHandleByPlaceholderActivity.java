@@ -1,6 +1,7 @@
 package cn.dreamtobe.kpswitch.demo.activity;
 
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -110,6 +111,12 @@ public class ChattingResolvedHandleByPlaceholderActivity extends AppCompatActivi
         panelRoot = (KPSwitchFSPanelLinearLayout) findViewById(R.id.panel_root);
         sendEdt = (EditText) findViewById(R.id.send_edt);
         plusIv = (ImageView) findViewById(R.id.plus_iv);
+        findViewById(R.id.text).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ChattingResolvedHandleByPlaceholderActivity.this,PanelActivity.class));
+            }
+        });
     }
 
     @Override

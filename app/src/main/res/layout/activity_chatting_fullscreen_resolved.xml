@@ -3,7 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#ff0000"
+        android:id="@+id/text"
+        android:text="click me to next page"
+        android:gravity="center"/>
 
     <include layout="@layout/view_message_list" />
     <include layout="@layout/layout_send_message_bar" />

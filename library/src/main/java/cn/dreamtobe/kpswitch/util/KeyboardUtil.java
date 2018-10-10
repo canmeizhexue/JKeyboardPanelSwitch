@@ -310,7 +310,7 @@ public class KeyboardUtil {
 
             calculateKeyboardHeight(displayHeight);
             calculateKeyboardShowing(displayHeight);
-
+            Log.d("zyp","previousDisplayHeight------"+previousDisplayHeight+"  displayHeight  "+displayHeight);
             previousDisplayHeight = displayHeight;
         }
 

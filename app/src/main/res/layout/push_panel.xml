@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/menu"
+        android:background="#ffffff"
+        android:textColor="@android:color/black"
+        android:lineSpacingExtra="10dp"
+        android:text="测试全屏，然后返回上一个页面，键盘高度就会异常，或者收起键盘的时候，面板不会隐藏"
+        android:gravity="center"/>
+
+</LinearLayout>
